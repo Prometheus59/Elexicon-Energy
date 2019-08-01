@@ -74,7 +74,7 @@ function serve_dates() {
     var message = `
       Disconnect Dates are ${day1} to ${day2}.
 
-      These dates are adjusted for the ${holiday.name} holiday.
+      These dates are adjusted for ${holiday.name}.
       `;
   } else {
     var message = `
