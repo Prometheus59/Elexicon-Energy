@@ -42,6 +42,7 @@
     }
   },
   "dependencies": {
+    "clipboardy": "^2.1.0",
     "date-holidays": "^1.4.1",
     "electron-squirrel-startup": "^1.0.0",
     "node-abi": "^2.10.0"
