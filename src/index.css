@@ -4,3 +4,7 @@ body {
   max-width: 40rem;
   padding: 2rem;
 }
+
+#dates_only {
+  border: 1px solid black;
+}
