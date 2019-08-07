@@ -4,3 +4,12 @@ body {
   max-width: 40rem;
   padding: 2rem;
 }
+
+#box {
+  border: 2px darkgray solid;
+  height: 15em;
+  width: 90%;
+
+  margin: 50px 20px 20px 20px;
+  padding: 20px;
+}

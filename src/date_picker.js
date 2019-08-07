@@ -81,6 +81,5 @@ function serve_dates() {
       Disconnect Dates are ${day1} to ${day2}.
       `;
   }
-
-  alert("\n\n" + message + "\n\n");
+  document.getElementById("box").innerHTML = "\n\n" + message + "\n\n";
 }

@@ -69,7 +69,8 @@ function get_ivr_date() {
 
   // Copy date and print to console for verification
   clipboardy.writeSync(formatted_date);
-  alert(
-    "\nIVR Date is " + formatted_date + adjustment + "\n\nDate copied to clipboard!"
-  );
+  document.getElementById("box").innerHTML = 
+    "<p> IVR Date is " + formatted_date + "</p>" +
+    "<p>" + adjustment + "</p>" +
+    "<p> Date copied to clipboard! </p>";
 }
