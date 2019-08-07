@@ -27,7 +27,7 @@ const createWindow = () => {
   // mainWindow.webContents.openDevTools();
 
   // Close Menu on startup
-  // mainWindow.removeMenu();
+  mainWindow.removeMenu();
 
   // Emitted when the window is closed.
   mainWindow.on("closed", () => {
