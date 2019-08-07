@@ -63,6 +63,7 @@ async function getWeather(city) {
     })
     .catch(err => {
       console.log(err);
+      alert("An error occurred. Please try again.")
     });
 }
 
@@ -71,14 +72,27 @@ let i = 0,
 
 console.log("\nLoading Temperatures\n");
 
+var display_string = `
+  <table>
+    <tr>
+      <th>City</th>
+      <th>Overnight Temperature</th>
+    </tr>
+`;
+
+document.getElementById("box").innerHTML = "Loading Temperatures";
 (async () => {
   while (i < x) {
     let city = cities[i];
     await getWeather(city);
+    display_string = display_string.concat(`<tr>` + `<td>` + city.name + `</td> <td class="td-tmp">` + city.temp + `</td></tr>`);
     i++;
   }
-
   console.table(cities, ["name", "temp"]);
+  display_string = display_string.concat(`</table>`).trim();
+  console.log(display_string);
+  document.getElementById("box").innerHTML = display_string;
 })();
+
 
 }

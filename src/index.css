@@ -13,3 +13,15 @@ body {
   margin: 50px 20px 20px 20px;
   padding: 20px;
 }
+
+table {
+  width: 90%;
+}
+
+td {
+  padding-left: 16%;
+}
+
+td, .td-tmp {
+  padding-left: 20%;
+}
