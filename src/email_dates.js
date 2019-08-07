@@ -75,7 +75,9 @@ function load_template() {
   var subject = `Disconnect Timeline Confirmation`;
 
   if (holiday) {
-    var message = `Good morning,%0D%0A%0D%0AI'd like to confirm the disconnect dates as ${day1} to ${day2}.%0D%0A%0D%0AThese dates are adjusted for the ${holiday.name} holiday.%0D%0A%0D%0AThank You`;
+    var message = `Good morning,%0D%0A%0D%0AI'd like to confirm the disconnect dates as ${day1} to ${day2}.%0D%0A%0D%0AThese dates are adjusted for the ${
+      holiday.name
+    } holiday.%0D%0A%0D%0AThank You`;
   } else {
     var message = `Good morning,%0D%0A%0D%0AI'd like to confirm the disconnect dates as ${day1} to ${day2}.%0D%0A%0D%0AThank You`;
   }

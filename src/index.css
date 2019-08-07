@@ -1,8 +1,12 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: auto;
   max-width: 40rem;
   padding: 2rem;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
 }
 
 #box {
@@ -18,10 +22,16 @@ table {
   width: 90%;
 }
 
-td {
-  padding-left: 16%;
+th {
+  padding-bottom: 20px;
 }
 
-td, .td-tmp {
+td {
+  padding-left: 16%;
+  padding-bottom: 3px;
+}
+
+td,
+.td-tmp {
   padding-left: 20%;
 }

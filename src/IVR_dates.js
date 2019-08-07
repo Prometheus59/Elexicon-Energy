@@ -8,7 +8,7 @@ function get_ivr_date() {
   // --> No IVR's on Tuesdays
   if (ivr_date.getDay() == 2) {
     console.log("No IVR's on Tuesdays");
-    alert("No IVR's on Tuesdays")
+    alert("No IVR's on Tuesdays");
     return;
   }
 
@@ -61,7 +61,7 @@ function get_ivr_date() {
   // Prepend "0" if necessary
   let day = ivr_date.getDate();
   if (day < 10) {
-      day = "0" + day.toString();
+    day = "0" + day.toString();
   }
 
   // Format date as yymmdd for excel
@@ -69,8 +69,12 @@ function get_ivr_date() {
 
   // Copy date and print to console for verification
   clipboardy.writeSync(formatted_date);
-  document.getElementById("box").innerHTML = 
-    "<p> IVR Date is " + formatted_date + "</p>" +
-    "<p>" + adjustment + "</p>" +
+  document.getElementById("box").innerHTML =
+    "<p>IVR Date is " +
+    formatted_date +
+    "</p>" +
+    "<p>" +
+    adjustment +
+    "</p>" +
     "<p> Date copied to clipboard! </p>";
 }
