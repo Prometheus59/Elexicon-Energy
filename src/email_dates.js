@@ -90,6 +90,10 @@ function load_template() {
   // Force Launch email client
   require("openurl").open(mail_string);
 
+  var message = "Message Template loaded with Disconnect Date";
+
+  document.getElementById("box").innerHTML = "\n\n" + message + "\n\n";
+
   // Print to console for verification
   console.log(day1);
   console.log(day2);
