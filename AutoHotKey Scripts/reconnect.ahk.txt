@@ -1,0 +1,8 @@
+NumpadAdd:: semicolon()
+
+semicolon(){
+send :
+}
+
+
+return
