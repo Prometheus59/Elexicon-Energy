@@ -8,7 +8,7 @@ function get_ivr_date() {
   // --> No IVR's on Tuesdays
   if (ivr_date.getDay() == 2) {
     console.log("No IVR's on Tuesdays");
-    alert("No IVR's on Tuesdays");
+    document.getElementById("box").innerHTML = "No IVR's on Tuesdays"
     return;
   }
 
