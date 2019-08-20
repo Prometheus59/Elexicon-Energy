@@ -21,8 +21,9 @@ const createWindow = () => {
       nodeIntegration: true
     },
     autoHideMenuBar: true,
-    backgroundColor: "#141E30",  /* fallback for old browsers */
-
+    backgroundColor: "#141E30",
+    title: "Credit Tools"
+    // frame: false --> For frameless window
   });
 
   // and load the index.html of the app.

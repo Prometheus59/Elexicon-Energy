@@ -23,7 +23,9 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "elexicon_energy"
+            "name": "elexicon_energy",
+            "iconUrl": "src/icons/elexicon_logo.ico",
+            "setupIcon": "src/icons/setup.ico"
           }
         },
         {
@@ -52,6 +54,7 @@
     "electron-squirrel-startup": "^1.0.0",
     "node-abi": "^2.11.0",
     "openurl": "^1.1.1",
+    "request": "^2.88.0",
     "request-promise": "^4.2.4"
   },
   "devDependencies": {
@@ -60,7 +63,7 @@
     "@electron-forge/maker-rpm": "^6.0.0-beta.44",
     "@electron-forge/maker-squirrel": "^6.0.0-beta.44",
     "@electron-forge/maker-zip": "^6.0.0-beta.44",
-    "electron": "^6.0.2",
+    "electron": "^6.0.3",
     "electron-prebuilt-compile": "4.0.0",
     "electron-rebuild": "^1.8.6"
   }
