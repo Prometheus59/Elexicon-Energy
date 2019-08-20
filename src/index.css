@@ -1,3 +1,5 @@
+@import '../node_modules/tiny-date-picker/tiny-date-picker.css';
+
 body {
   font-family: "Roboto", sans-serif;
   color: White;
