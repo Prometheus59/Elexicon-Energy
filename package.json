@@ -1,8 +1,8 @@
 {
   "name": "elexicon-energy",
   "productName": "elexicon-energy",
-  "version": "1.0.0",
-  "description": "My Electron application description",
+  "version": "2.0.0",
+  "description": "Variety of tools designed for the Credit department",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
@@ -12,11 +12,11 @@
     "lint": "echo \"No linting configured\""
   },
   "keywords": [],
-  "author": "rkarumanchery",
+  "author": "Ryan Karumanchery",
   "license": "MIT",
   "config": {
     "forge": {
-      "packagerConfig": {
+      "electronPackagerConfig": {
         "icon": "src/icons/elexicon_logo.ico"
       },
       "makers": [
