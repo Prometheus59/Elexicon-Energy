@@ -1,0 +1,43 @@
+NumpadDiv & PgUp:: schedule_ftc()
+F9:: paste()
+
+schedule_ftc(){
+Click, 302, 371
+Click, 302, 371
+Sleep 350
+Click 248, 386
+Click 248, 386
+Sleep 500
+Click 288, 339
+Sleep 500
+paste()
+;Sleep 500
+;Click 782, 764
+Sleep 350
+; Click 855, 835 ; IVR Date
+; Sleep 600
+Click 559, 343
+Sleep 1000
+Click 552, 390
+Sleep 800
+Click 242, 438
+Sleep 250
+paste()
+Sleep 200
+Click 294, 441
+Sleep 500
+Click 256, 370
+Sleep 200
+Click 256, 370
+return
+}
+
+paste(){
+OriginalClipboardContents = %ClipBoardAll%
+ClipBoard = %ClipBoard%                             ; Convert to text
+Send ^v 						
+Sleep 100                                           ; Don't change clipboard while it is pasted
+ClipBoard := OriginalClipboardContents              ; Restore original clipboard contents
+OriginalClipboardContents =                         ; Free memory
+return
+}

@@ -15,9 +15,15 @@ const createWindow = () => {
   mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    minWidth: 600,
+    minHeight: 400,
     webPreferences: {
       nodeIntegration: true
-    }
+    },
+    autoHideMenuBar: true,
+    backgroundColor: "#141E30",
+    title: "Credit Tools"
+    // frame: false --> For frameless window
   });
 
   // and load the index.html of the app.
@@ -27,7 +33,7 @@ const createWindow = () => {
   // mainWindow.webContents.openDevTools();
 
   // Close Menu on startup
-  mainWindow.removeMenu();
+  // mainWindow.removeMenu();
 
   // Emitted when the window is closed.
   mainWindow.on("closed", () => {

@@ -1,0 +1,5 @@
+NumpadMult::
+MouseGetPos, xpos, ypos 
+MsgBox, Click %xpos%, %ypos%. 
+
+return

@@ -1,0 +1,94 @@
+`:: search()
+NumpadMult:: search()
+F1:: call_main()
+F2:: service_summ()
+F3:: acc_bal_hist()
+F4:: acc_comm()
+F5:: letter_hist()
+F6:: pending_j()
+F7:: low_income()
+PgUp:: a
+
+Control & r:: refresh()
+
+F12 & PgUp:: cancel_status()
+
+Insert:: browse()
+Home:: call_details()
+Delete:: edit()
+End:: ok()
+PgDn:: ok_far()
+
+search(){
+Click, 230, 131
+}
+
+call_main(){
+Click, 283, 314
+}
+
+service_summ(){
+Click, 430, 314
+}
+
+acc_bal_hist(){
+Click, 594, 314
+}
+
+acc_comm(){
+Click, 770, 314
+}
+
+letter_hist(){
+Click, 914, 314
+}
+
+pending_j(){
+Click, 1052, 314
+}
+
+low_income(){
+Click, 1212, 314
+}
+
+
+
+browse(){
+Click, 255, 365
+}
+
+call_details(){
+Click, 302, 371
+}
+
+edit(){
+Click, 292, 437
+}
+
+ok(){
+Click, 367, 437
+}
+
+ok_far(){
+Click, 562, 438
+}
+
+refresh(){
+Click, 598, 133
+}
+
+cancel_status(){
+Click, 302, 371
+Click, 464, 389
+Click, 292, 437
+Sleep, 800
+Click, 131, 87
+Send x
+Send Enter
+Click, 562, 438
+Sleep, 1300
+Click, 253, 224
+Click, 255, 365
+}
+
+return
