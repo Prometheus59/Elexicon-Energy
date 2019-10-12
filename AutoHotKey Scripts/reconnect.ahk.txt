@@ -1,3 +1,5 @@
+; Remap of semicolon to the '+' key on the numpad
+
 NumpadAdd:: semicolon()
 
 semicolon(){

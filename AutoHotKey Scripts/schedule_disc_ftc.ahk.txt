@@ -1,3 +1,8 @@
+; This script will schedule a failure to contract disconnect
+; Check the locations of the clicks using mouse_pos.ahk before running this program
+; WARNING: Running this script without confirming/editing values (i.e. IVR Date) may result
+;           in complications.
+
 NumpadDiv & PgUp:: schedule_ftc()
 F9:: paste()
 

@@ -1,3 +1,6 @@
+; this script provides mouse position when the '*' key is pressed on the Numpad
+; primarily used for editing placement of the other ahk functions
+
 NumpadMult::
 MouseGetPos, xpos, ypos 
 MsgBox, Click %xpos%, %ypos%. 

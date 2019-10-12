@@ -1,3 +1,8 @@
+; This script contains a variety of macros that can be used to speed up tasks
+; The macros are broken down into 3 categories: Traversing program, status updates, editing
+
+
+; TRAVERSING PROGRAM
 `:: search()
 NumpadMult:: search()
 F1:: call_main()
@@ -9,10 +14,12 @@ F6:: pending_j()
 F7:: low_income()
 PgUp:: a
 
-Control & r:: refresh()
 
+; STATUS UPDATE
+Control & r:: refresh()
 F12 & PgUp:: cancel_status()
 
+; EDITING
 Insert:: browse()
 Home:: call_details()
 Delete:: edit()
